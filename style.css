@@ -1,0 +1,95 @@
+.nav{
+    padding: 20px;
+    font-size: large;
+    margin-top: 10px;
+    font-family: DM sans-serif;
+    color: #232323;
+}
+
+.nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style:none;
+    color: #232323;
+}
+
+.logo {
+        margin-right: auto;
+}
+
+.nav a {
+    padding: 1em;
+    display: block;
+    text-align:center;
+    text-decoration: none;
+    font-family: DM Sans;
+    color: #232323;
+}
+
+.nav a:visited {
+    padding: 1em;
+    display: block;
+    text-align:center;
+    text-decoration: none;
+    font-family: DM Sans;
+    color: #232323;
+}
+
+.nav .event {
+    color: white;
+    background-color: red;
+    border-radius: 1em;
+}
+
+.nav .menu {
+    display: flex; /*1*/
+    flex-direction : row; /*2*/
+    justify-content: space-around; /*3*/    
+}
+
+.gamer_picture {
+    display: flex;
+    justify-content: center;
+    background-color: #232323;
+    border-radius: 1em;
+    margin: 5px;
+}
+
+.gamer_picture img {
+    display: flex;
+    margin-left: auto;
+    border-radius: 0 1em 1em 0;
+}
+
+button {
+    padding: 20px;
+    font-size: large;
+    margin-top: 10px;
+    font-family: DM Sans;
+    color: white;
+    background: #FE142F;
+    border-radius: 8px;
+    border: none;
+    margin-top: 100px;
+}
+
+.title {
+    padding: 20px;
+}
+
+h1 {
+    font-family: DM Sans;
+    z-index: 6;
+    text-align: center;
+    color: white;
+    font-size: 96px;
+    line-height: 125px;
+}
+
+h2{
+    font-family: DM Sans;
+    color: white;
+    font-size: 24px;
+    line-height: 31px;
+}
+
